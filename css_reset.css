@@ -9,9 +9,25 @@ nav {
   text-align: center;
 }
 
+body {
+  text-align: center;
+}
+
+h3 {
+  color: #FF0000;
+}
+
 li {
   font-size: 2vw;
   padding: 5px;
+  text-align: left;
+}
+
+label {
+  color: #017601;
+  display: inline-block;
+  text-shadow: 1px 1px #000000;
+  font-size: 3vw;
 }
 
 a {
