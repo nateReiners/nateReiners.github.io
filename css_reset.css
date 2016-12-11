@@ -2,15 +2,11 @@ h1 {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 
 nav {
-  background: linear-gradient(#FFFFFF, #FF0000);
+  background: radial-gradient(#FF0000, #FFFFFF);
   padding-right: 2vw;
-  text-align: left;
+  text-align: center;
 }
 
 li {
@@ -19,7 +15,7 @@ li {
 }
 
 a {
-  color: #ff3300;
+  color: #993300;
   display: inline-block;
   text-shadow: 1px 1px #000000;
 
@@ -28,17 +24,4 @@ a:hover {
   color: #e7dfdd;
   text-shadow: 1px 1px #000000;
   text-decoration: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
