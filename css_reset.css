@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+body {
+  background: #FF99FF;
+}
+
 h3 {
   color: #FF0000;
 }
