@@ -1,0 +1,16 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+li:hover {
+  font-size-adjust: :
+}
