@@ -35,3 +35,9 @@ figure {
 figure > img {
   width: 300px;
 }
+/*figure out how to target reviews after submission!*/
+/*#reviews {
+  font-size: 16px;
+  color: inherit;
+  align: center;
+}*/
