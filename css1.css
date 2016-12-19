@@ -24,6 +24,18 @@ body {
   line-height: 1.5;
 }
 
+input {
+  cursor: pointer;
+  outline: none;
+}
+input:last-child {
+  background-color: gold;
+}
+
+input:last-child:hover {
+  filter: brightness(0.8);
+}
+
  li > a {
   text-decoration: none;
   color: inherit;
