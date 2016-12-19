@@ -15,12 +15,21 @@ li:hover {
   color: red;
 }
 
+ol li:nth-child(2n+2) {
+  background-color: #E6E6FA;
+}
+
+review + p {
+  border-color: black;
+  border-width: 1px;
+}
+
 .logo > img {
   width: 100px;
 }
 
 body {
-  background-color: #ffcc99;
+  background-color: #ffcf67;
   line-height: 1.5;
 }
 
