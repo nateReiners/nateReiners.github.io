@@ -36,6 +36,7 @@ body {
   background-color: #ffcf67;
   line-height: 1.5;
   width: 900px;
+  margin: 0 auto;
 }
 
 input {
@@ -55,6 +56,19 @@ input:last-child:hover {
   color: inherit;
 }
 
+aside {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+section {
+  display: inline-block;
+}
+
+form {
+  display: block;
+}
+
 nav > ul > li {
   padding: 20px;
   display: inline-block;
@@ -62,6 +76,7 @@ nav > ul > li {
 
 figure {
   font-size: 16px;
+  display: inline-block;
 }
 
 figure > img {
