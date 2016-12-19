@@ -28,9 +28,14 @@ review + p {
   width: 100px;
 }
 
+nav {
+  display: inline-block;
+}
+
 body {
   background-color: #ffcf67;
   line-height: 1.5;
+  width: 900px;
 }
 
 input {
@@ -48,6 +53,11 @@ input:last-child:hover {
  li > a {
   text-decoration: none;
   color: inherit;
+}
+
+nav > ul > li {
+  padding: 20px;
+  display: inline-block;
 }
 
 figure {
