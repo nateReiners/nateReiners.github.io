@@ -1,6 +1,17 @@
+html, section, aside, figure, h3, footer, h1, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
 h1 {
   font-family: Arial, sans-serif;
   font-size: 38px;
+  text-align: center;
 }
 
 h2 {
@@ -9,14 +20,15 @@ h2 {
 
 .ingredients-list {
   list-style: square inside;
+  display: inline-block;
 }
 
 li:hover {
-  color: red;
+  color: maroon;
 }
 
 ol li:nth-child(2n+2) {
-  background-color: #E6E6FA;
+  background-color: lightgrey;
 }
 
 review + p {
@@ -30,6 +42,7 @@ review + p {
 
 nav {
   display: inline-block;
+  font-size: 30px;
 }
 
 body {
@@ -58,7 +71,8 @@ input:last-child:hover {
 
 aside {
   display: inline-block;
-  margin-right: 15px;
+  float: left;
+  font-size: 20px;
 }
 
 section {
@@ -66,7 +80,7 @@ section {
 }
 
 form {
-  display: block;
+  display: inline-block;
 }
 
 nav > ul > li {
@@ -75,16 +89,25 @@ nav > ul > li {
 }
 
 figure {
-  font-size: 16px;
   display: inline-block;
+  text-align: center;
+  width: 400px;
+  border: 10px solid maroon;
+  position: relative;
+  margin: 20px;
+  float: right;
 }
 
 figure > img {
-  width: 300px;
+  width: 100%;
+  display: block;
+  height: auto;
 }
-/*figure out how to target reviews after submission!*/
-/*#reviews {
+
+figcaption {
   font-size: 16px;
-  color: inherit;
-  align: center;
-}*/
+  font-weight: bold;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
