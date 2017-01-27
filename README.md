@@ -1,6 +1,6 @@
 # Impulse
 
-[Live Site](nateReiners.github.io);
+[Live Site](https://natereiners.github.io/);
 
 Impulse is a simple and surprisingly addictive game built using JavaScript, HTML5 Canvas and EaselJs.  The rules are as follows.
 
