@@ -145,7 +145,7 @@
              currentScore.y = 5;
              currentScore.name = 'score';
 
-
+             if ( typeof localStorage.highScore === "undefined" ) { localStorage.highScore = 0 };
              var highScore = new createjs.Text(`High Score: ${localStorage.highScore}`, "20px Arial", "white");
              highScore.name = 'highScore';
              highScore.x = 10;
