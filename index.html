@@ -3,7 +3,7 @@
   <head>
     <style>
       h1 {
-        font-size: 40px;
+        font-size: 44px;
         color: white;
         font-family: 'Ruslan Display', cursive;
       }
@@ -14,7 +14,7 @@
       }
       p {
         color: white;
-        font-family: 'Ruslan Display', cursive;
+        font-family: sans-serif;
         font-size: 20px;
       }
       ul {
@@ -54,7 +54,7 @@
       }
       function init() {
           // Music: http://www.bensound.com
-          const breakingGlass = new Audio("./assets/audio/bulb_break.mp3");
+          const breakingGlass = new Audio("./assets/audio/bubbly.wav");
 
            var canvas = document.getElementById('canvas');
            const context = canvas.getContext('2d');
@@ -179,7 +179,7 @@
                      if (checkCollision(currentChild, currentObstacle)) {
                        breakingGlass.play();
                        createjs.Ticker.removeEventListener("tick", tick);
-                       var text = new createjs.Text("Game Over", "bold 50px Arial", "red");
+                       var text = new createjs.Text("Game Over", "bold 50px Arial", "white");
                        text.x = 280;
                        text.y = 100;
 
@@ -232,9 +232,9 @@
   <body onload="init();">
     <div id="main">
       <div id="header-div">
-        <h1>┈Impulse┈</h1>
-        <p>hover mouse to avoid the dots</p>
-        <p>click in rectangle to start and restart</p>
+        <h1>Impulse</h1>
+        <p>Hover mouse to avoid the dots</p>
+        <p>Click in rectangle to start and restart</p>
       </div>
       <canvas id="canvas" width="800" height="400" onClick="location.reload();">
       </canvas>
