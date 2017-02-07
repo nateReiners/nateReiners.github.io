@@ -124,7 +124,7 @@
               circle.graphics.beginFill(color).drawCircle(0,0, size);
                 //along top (y0 x0-1024)
                 circle.x = Math.floor(Math.random() * 800);
-                circle.y = Math.floor(Math.random() * 400) - 400;
+                circle.y = Math.floor(Math.random() * 600) - 600;
                 circle.size = size;
 
               circle.name = "obstacle";
@@ -236,7 +236,7 @@
         <p>Hover mouse to avoid the dots</p>
         <p>Click in rectangle to start and restart</p>
       </div>
-      <canvas id="canvas" width="800" height="400" onClick="location.reload();">
+      <canvas id="canvas" width="800" height="600" onClick="location.reload();">
       </canvas>
       <br></br>
       <button type="button" name="button" onClick="playMusic();">Play Music</button>
