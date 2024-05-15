@@ -2,10 +2,11 @@
 
 [Live Site](https://natereiners.github.io/);
 
-Impulse is a simple and surprisingly addictive game built using JavaScript, HTML5 Canvas and EaselJs.  The rules are as follows.
+Impulse is a game built using JavaScript, HTML5 Canvas and EaselJs.  The rules are as follows.
 
 1) The user must avoid all obstacles which move across the screen from top-right to bottom left.
 2) The game ends when the user hits an obstacle.
+3) The longer you avoid obstacles, the higher your score.
 
 ## Features
 
